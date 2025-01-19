@@ -1,0 +1,99 @@
+
+
+
+body{
+    text-align: center;
+    height: 900px;
+}
+.imagedefond{
+    background-position: center;
+    background-size: cover;
+    background-image: url(pour\ pyramide.jpg);
+    animation: change 15s infinite ease-in-out;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    height: 800px;
+
+}
+nav{ 
+    height: 100px;b
+    position: sticky;
+    text-align: center;
+    background: rgba(0,0,0,6);
+    line-height: 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+    opacity: 0.6;    
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+    float: none;     
+}
+
+#logo{
+    float: left;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+}
+a{
+    color: white;
+}
+li{
+    float: right; 
+    letter-spacing: 2px;   
+}
+li:hover{
+    background-color: darkgoldenrod;
+}
+      
+
+footer{
+    text-align: center;
+    background: rgba(0,0,0,6);
+    height: 80px;
+    opacity: 0.6;
+    border-top: 2px solid #fff;  
+     
+}
+#Vr{
+    font-size: 20px;
+    color: white;
+}
+#fr{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+@keyframes change{
+    0%
+    {
+       background-image: url(IMG-20250119-WA0001[1].jpg); 
+    }
+    25%
+    {
+        background-image: url(IMG-20250119-WA0002[1].jpg)
+    }
+    50%
+    {
+        background-image: url(IMG-20250119-WA0003[1].jpg);
+    }
+    75%
+    {
+        background-image: url(voyage-800.png);
+    }
+    100%
+    {
+        background-image: url(Cap2plage.jpg);
+
+    }
+}
